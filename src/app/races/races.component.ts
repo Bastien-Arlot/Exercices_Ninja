@@ -16,7 +16,7 @@ export class RacesComponent implements OnInit {
 		{
 			id: 12,
 			name: 'Lyon',
-			startInstant: '2020-02-18T08:02:00Z20-04-2021',
+			startInstant: '2020-02-18T08:02:00Z',
 			ponies: [
 				{ id: 1, name: 'Gentle Pie', color: 'YELLOW'},
 				{ id: 2, name: 'Big Soda', color: 'Orange'},
