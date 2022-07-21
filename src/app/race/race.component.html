@@ -1,6 +1,6 @@
 <div>
 	<h2>{{raceModel.name}}</h2>
 	<ul>
-		<li *ngFor="let ponie of raceModel.ponies">{{ponie.name}}</li>
+		<li *ngFor="let ponie of raceModel.ponies"><pr-pony [ponyModel]="ponie"></pr-pony></li>
 	</ul> 
 </div>
