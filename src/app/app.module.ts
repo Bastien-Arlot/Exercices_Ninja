@@ -8,10 +8,15 @@ import { RaceComponent } from './race/race.component';
 import { PonyComponent } from './pony/pony.component';
 import { FromNowPipe } from './from-now.pipe';
 import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { ROUTES } from './app.routes';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, MenuComponent, RacesComponent, RaceComponent, PonyComponent, FromNowPipe],
-  imports: [HttpClientModule, BrowserModule],
+  declarations: [AppComponent, MenuComponent, RacesComponent, RaceComponent, PonyComponent, FromNowPipe, HomeComponent, RegisterComponent],
+  imports: [HttpClientModule, BrowserModule, RouterModule.forRoot(ROUTES), ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

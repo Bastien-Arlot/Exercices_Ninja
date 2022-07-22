@@ -1,1 +1,1 @@
-{"pack":"56","id":11,"title":"HTTP","specs":[{"name":"src/app/app.component.spec.ts","hash":"b11eb334cd96545255cf10074e01d076375b647f"},{"name":"src/app/race.service.spec.ts","hash":"d7adbaaa499a775d4dd45c4bbe9bc79922faedd9"}]}
+{"pack":"56","id":14,"title":"Register form","specs":[{"name":"src/app/home/home.component.spec.ts","hash":"227fa717252476adc5e323f6cd9e96cf5ca51379"},{"name":"src/app/register/register.component.spec.ts","hash":"da767cfaae33ca8ad921590ea2eb1b4312c3c58f"}]}
