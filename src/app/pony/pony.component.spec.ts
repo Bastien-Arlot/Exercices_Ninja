@@ -1,7 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 
 import { PonyComponent } from './pony.component';
-import { PonyModel } from '../model/pony.model';
+import { PonyModel } from '../models/pony.model';
 
 describe('PonyComponent', () => {
   beforeEach(() =>
